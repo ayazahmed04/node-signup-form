@@ -7,6 +7,7 @@ const https = require('https')
 /* URL ENDCODED used method in the most best way  */
 app.use(bodyParser.urlencoded({ extended: true }))
 
+// Adding commit 
 /* Using app.use to render our website */
 
 app.use(express.static('./public'))
