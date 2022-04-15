@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 3rem;
+}
+
+body form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body form .heading {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.81rem;
+  margin-bottom: 0.3rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+body form h5 {
+  color: rgba(56, 56, 100, 0.678);
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 300;
+}
+
+body .home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .home img {
+  border-radius: 3rem;
+  width: 3rem;
+  margin-bottom: 1rem;
+}
+
+body .home input {
+  height: 2rem;
+  color: #20242777;
+  font-weight: 200;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body .home input:focus {
+  border: 5px solid rgba(40, 131, 131, 0.308);
+}
+
+body .home input:nth-child(2) {
+  border-width: 1;
+  border-radius: 0;
+}
+
+body .home input[type="email"] {
+  color: blue;
+  text-transform: none;
+}
+
+body .home button {
+  cursor: pointer;
+  margin-top: 1rem;
+  color: #254747;
+  width: 100%;
+  height: 1.3rem;
+  background: #b1b137;
+  border-radius: 0.5rem;
+}

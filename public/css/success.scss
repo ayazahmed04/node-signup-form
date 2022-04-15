@@ -1,0 +1,19 @@
+body {
+  h1 {
+    padding: 3rem;
+    font-family: sans-serif, "Courier New", Courier, monospace;
+  }
+  p {
+    text-transform: capitalize;
+    margin-top: 3rem;
+    font-size: 1.4rem;
+    padding-left: 2rem;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.success {
+  background-color: aliceblue;
+}

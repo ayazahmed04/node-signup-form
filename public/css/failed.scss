@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.failed {
+  height: 50%;
+  background-color: aliceblue;
+
+  h1 {
+    height: max-content;
+    font-size: 8rem;
+    font-family: sans-serif, "Courier New", Courier, monospace;
+    margin-top: 0;
+    align-items: center;
+    color: rgba(172, 0, 72, 0.74);
+    text-align: center;
+    margin: 0 0;
+  }
+  p {
+    text-transform: uppercase;
+    font-family: "Courier New", Courier, monospace;
+    padding: 3rem 3rem 2rem 5rem;
+  }
+}
+button {
+  background-color: rgba(170, 0, 161, 0.493);
+  color: rgb(32, 145, 165);
+  padding: 0.5rem;
+  align-items: right;
+  text-align: right;
+  float: right;
+}
